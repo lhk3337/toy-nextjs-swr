@@ -15,7 +15,7 @@ export default () => {
     <div className="bg-[#222f3e] p-10 rounded-lg">
       <h1 className="text-4xl font-bold text-white text-center">댕댕 티비</h1>
       <div className=" flex justify-center border-white rounded-xl border-2 my-20 max-w-xl h-96 mx-auto">
-        <video src={data?.data.url} autoPlay muted />
+        <video src={data?.data?.url} autoPlay muted />
       </div>
       <div className="flex justify-center my-12">
         <button
